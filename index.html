@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b6707d967.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Project</a></li>
+                <li><a href="#portfolio">Certification</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Ranjit </br>Shaw </span>from Kolkta</h1>
+        </div>
+    </div>
+</div>
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hello Coders! 👋 I'm Ranjit Kumar Shaw, a 2020 graduate from Calcutta University with a Bachelor of Science degree. After graduation, I co-founded a startup, then gained valuable experience as a pre-sales associate at Byju's, where I honed my communication and sales skills. Simultaneously, I embarked on a journey of learning and enrolled in Newton School's Full Stack Developer course. Today, I'm proficient in Java, HTML, CSS, JavaScript, and React, with a strong passion for continuously expanding my tech toolkit. My ultimate goal? To become a top-notch React/frontend developer, leveraging my skills to craft innovative solutions for businesses. 🚀</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Frontend Developer</span><br>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>REACT.JS</li>
+                        <li>REDUX</li>
+                    </li>
+                    <li><span>Other</span><br>
+                        <li>JAVA</li>
+                        <li>DATA STRUCTURE</li>
+                        <li>ALGORITHM</li>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>April(2022) - September(2022)</span><br>Pre-sales Associate in Byju's </li>
+                    <li><span>September(2022) - September(2023)</span><br>Full Stack Web Developer in Newton School</li>
+                    <li><span>July(2023) - August(2023)</span> <br> Frontend Developer intern at AiVersaTech</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2012-2013</span><br>Matriculation </li>
+                    <li><span>2013-2015</span><br>Intermediate</li>
+                    <li><span>2015-2020</span><br>Bachelor Of Science</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- --------------Services------------------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="services_list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>3D-Newton School</h2>
+                <p>The Newton School Landing Page is a visually engaging web interface designed to introduce visitors to the innovative edtech platform, Newton School. With a dynamic layout, captivating animations, and concise content, the page effectively conveys the platform's mission of empowering aspiring developers with practical coding skills and preparing them for successful careers in the tech industry. The page employs modern design techniques, including scroll-triggered animations, to create an interactive and immersive user experience.</p>
+                <a href="https://3-d-newton-school.vercel.app/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>YouTube_Clone</h2>
+                <p>Welcome to our YouTube Clone, a user-friendly platform that closely resembles the popular video-sharing website, YouTube. Here, you can explore, engage with, and share a vast library of videos spanning various topics, from education and entertainment to music, sports, and more. With our YouTube Clone, you have the convenience of searching for videos using keywords or exploring personalized recommendations. Join us to embark on a journey of discovery, entertainment, and engagement, where you can watch, share, and connect with videos and creators who inspire, inform, and entertain you. We aim to recreate the excitement of YouTube for your enjoyment.</p>
+                <a href="https://you-tube-clone-dun.vercel.app/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Movie Booking Application</h2>
+                <p>Introducing our Movie Booking Application, a dynamic platform where you can easily access and explore a diverse collection of movies. With features such as adding movies to your list, filtering them by genres, utilizing the search functionality, and viewing comprehensive movie descriptions, we offer a seamless and enjoyable movie booking experience. Additionally, our application streamlines the process with a user-friendly checkout page. We've leveraged a robust tech stack, including HTML, CSS, JavaScript, and API integration, to bring you this efficient and engaging movie booking solution</p>
+                <a href="https://bejewelled-sable-ea5204.netlify.app">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- ----------------------------Portfolio------------------------ -->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certification</h1>
+        <div class="work_list">
+            <div class="work">
+                <img src="/images/certificate (1)_page-0001.jpg">
+                <div class="layer">
+                    <h3>My Certificate</h3>
+                    <p>Securing my Full Stack Web Development certification from Newton School has been a pivotal achievement. This intensive program empowered me with a robust skill set encompassing HTML, CSS, JavaScript, React, and Node.js. Through hands-on projects and mentorship, I acquired the expertise to create responsive web applications and solve complex coding problems. This certification signifies my technical proficiency and unwavering commitment to excel as a Full Stack Web Developer.</p>
+                    <a href="https://my.newtonschool.co/course/n58vugc7f96t/certificate/7pldgilim6fu/verify"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="" class="btn">See More</a>
+
+    </div>
+</div>
+
+
+<!-- -----------------------contact------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> shawranjit040@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 8420334295</p>
+                <div class="social_icons">
+                    <a href="https://www.linkedin.com/in/ranjit-shaw-280a49110/"><i class="fa-brands fa-linkedin"></i></a> 
+                    <a href="https://github.com/shawranjit040"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="/Resume-RANJIT Shaw (2).pdf" download class="btn btn2">Download CV </a>
+
+            </div>
+            <div class="contact_right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright with <i class="fa-solid fa-heart-pulse"></i> Ranjit</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sideMenu = document.getElementById("sideMenu")
+    function openMenu(){
+        sideMenu.style.right = "0"
+    }
+    function closeMenu(){
+        sideMenu.style.right = "-200px"
+    }
+</script>
+ 
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6izaK0V5zzvwhs1GUj1yBn7Jj5ioBHyPLEnjIeNAutrfDTfNaACxqGx6MDeOHUzy8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully..."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
